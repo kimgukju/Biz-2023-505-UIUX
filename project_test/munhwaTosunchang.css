@@ -1,0 +1,78 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+.aa {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+.top {
+  flex: 1;
+}
+
+.title {
+  display: flex;
+  align-items: center; /* 세로 정렬을 위해 추가 */
+  text-align: center;
+  font-size: 50px;
+  font-weight: bold;
+  width: 100%;
+  height: 100%;
+}
+
+.title_left,
+.title_right {
+  flex: 1;
+}
+
+.title_middle {
+  flex: 0.5;
+}
+
+.center {
+  flex: 4;
+}
+
+#list {
+  height: 100%;
+  overflow: auto;
+}
+
+.list_index {
+  height: 18%;
+  font-size: 30px;
+  border: 1px solid rgb(101, 101, 101,0.3);
+
+  display: flex;
+  align-items: center;
+}
+
+#list_top {
+
+  background-color: rgba(174, 169, 169, 0.579);
+}
+
+.list_index span {
+  flex: 1;
+  display: inline-block;
+  text-align: center;
+  /* border: 1px solid black; */
+  }
+
+.tail {
+  flex: 0.7;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.tail button {
+  font-size: 20px;
+  padding: 20px 150px;
+  background-color: #3498DB;
+  color: white;
+  border: none;
+}

@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <title>테스트</title>
+  </head>
+
+  <body>
+    <h1 id="time"></h1>
+
+    <script type="text/javascript">
+      //<![CDATA[
+
+      //var refreshSec = function() {
+
+      //var f = Math.floor(((new Date("2016-01-14 10:00:00")).getTime() - (new Date()).getTime() ) / 1000);
+
+      //document.getElementById("time").innerHTML = f;
+
+      //};
+
+      //setTimeout(refreshSec, 1000);
+
+      setInterval(function () {
+        var f = Math.floor(
+          (new Date("2023-06-07 14:00:00").getTime() - new Date().getTime()) /
+            1000
+        );
+        document.getElementById("time").innerHTML = "남은 시간 : " + f + "";
+      }, 1000);
+
+      //]]>
+    </script>
+  </body>
+</html>
