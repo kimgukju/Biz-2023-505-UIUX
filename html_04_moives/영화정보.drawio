@@ -1,0 +1,86 @@
+<mxfile host="app.diagrams.net" modified="2023-06-08T00:47:48.829Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="NeeO5QyNzWTi0Oo1kgcf" version="21.3.7" type="device">
+  <diagram name="페이지-1" id="721jnlG_Kv_7cM1KM1pL">
+    <mxGraphModel dx="1434" dy="788" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="4681" pageHeight="3300" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="RC-SYXC_iumwc9d7f65w-31" style="edgeStyle=none;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;labelBackgroundColor=default;strokeColor=default;fontFamily=Helvetica;fontSize=11;fontColor=default;endArrow=classic;" edge="1" parent="1" source="RC-SYXC_iumwc9d7f65w-1" target="RC-SYXC_iumwc9d7f65w-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="RC-SYXC_iumwc9d7f65w-32" style="edgeStyle=none;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;labelBackgroundColor=default;strokeColor=default;fontFamily=Helvetica;fontSize=11;fontColor=default;endArrow=classic;" edge="1" parent="1" source="RC-SYXC_iumwc9d7f65w-1" target="RC-SYXC_iumwc9d7f65w-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="RC-SYXC_iumwc9d7f65w-33" style="edgeStyle=none;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;labelBackgroundColor=default;strokeColor=default;fontFamily=Helvetica;fontSize=11;fontColor=default;endArrow=classic;" edge="1" parent="1" source="RC-SYXC_iumwc9d7f65w-1" target="RC-SYXC_iumwc9d7f65w-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="RC-SYXC_iumwc9d7f65w-1" value="User" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="150" y="580" width="90" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="RC-SYXC_iumwc9d7f65w-3" value="영화 소개" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="470" y="420" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="RC-SYXC_iumwc9d7f65w-4" value="영화 리뷰" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="470" y="700" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="RC-SYXC_iumwc9d7f65w-5" value="영화 장르별 분류" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="470" y="920" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="RC-SYXC_iumwc9d7f65w-16" style="edgeStyle=none;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;labelBackgroundColor=default;strokeColor=default;fontFamily=Helvetica;fontSize=11;fontColor=default;endArrow=classic;" edge="1" parent="1" source="RC-SYXC_iumwc9d7f65w-13" target="RC-SYXC_iumwc9d7f65w-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="RC-SYXC_iumwc9d7f65w-13" value="영화이름" style="ellipse;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fontColor=default;" vertex="1" parent="1">
+          <mxGeometry x="760" y="300" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="RC-SYXC_iumwc9d7f65w-17" style="edgeStyle=none;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;labelBackgroundColor=default;strokeColor=default;fontFamily=Helvetica;fontSize=11;fontColor=default;endArrow=classic;" edge="1" parent="1" source="RC-SYXC_iumwc9d7f65w-14" target="RC-SYXC_iumwc9d7f65w-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="RC-SYXC_iumwc9d7f65w-14" value="감독" style="ellipse;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fontColor=default;" vertex="1" parent="1">
+          <mxGeometry x="900" y="320" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="RC-SYXC_iumwc9d7f65w-18" style="edgeStyle=none;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;labelBackgroundColor=default;strokeColor=default;fontFamily=Helvetica;fontSize=11;fontColor=default;endArrow=classic;" edge="1" parent="1" source="RC-SYXC_iumwc9d7f65w-15" target="RC-SYXC_iumwc9d7f65w-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="RC-SYXC_iumwc9d7f65w-15" value="평점" style="ellipse;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fontColor=default;" vertex="1" parent="1">
+          <mxGeometry x="810" y="410" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="RC-SYXC_iumwc9d7f65w-20" style="edgeStyle=none;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;labelBackgroundColor=default;strokeColor=default;fontFamily=Helvetica;fontSize=11;fontColor=default;endArrow=classic;" edge="1" parent="1" source="RC-SYXC_iumwc9d7f65w-19" target="RC-SYXC_iumwc9d7f65w-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="RC-SYXC_iumwc9d7f65w-30" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;labelBackgroundColor=default;strokeColor=default;fontFamily=Helvetica;fontSize=11;fontColor=default;endArrow=classic;" edge="1" parent="1" source="RC-SYXC_iumwc9d7f65w-19" target="RC-SYXC_iumwc9d7f65w-5">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1030" y="950" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RC-SYXC_iumwc9d7f65w-19" value="장르" style="ellipse;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fontColor=default;" vertex="1" parent="1">
+          <mxGeometry x="980" y="490" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="RC-SYXC_iumwc9d7f65w-22" style="edgeStyle=none;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;labelBackgroundColor=default;strokeColor=default;fontFamily=Helvetica;fontSize=11;fontColor=default;endArrow=classic;" edge="1" parent="1" source="RC-SYXC_iumwc9d7f65w-21" target="RC-SYXC_iumwc9d7f65w-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="RC-SYXC_iumwc9d7f65w-21" value="러닝타임" style="ellipse;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fontColor=default;" vertex="1" parent="1">
+          <mxGeometry x="700" y="540" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="RC-SYXC_iumwc9d7f65w-25" style="edgeStyle=none;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;labelBackgroundColor=default;strokeColor=default;fontFamily=Helvetica;fontSize=11;fontColor=default;endArrow=classic;" edge="1" parent="1" source="RC-SYXC_iumwc9d7f65w-24" target="RC-SYXC_iumwc9d7f65w-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="RC-SYXC_iumwc9d7f65w-24" value="출연자" style="ellipse;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fontColor=default;" vertex="1" parent="1">
+          <mxGeometry x="860" y="550" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="RC-SYXC_iumwc9d7f65w-28" style="edgeStyle=none;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;labelBackgroundColor=default;strokeColor=default;fontFamily=Helvetica;fontSize=11;fontColor=default;endArrow=classic;" edge="1" parent="1" source="RC-SYXC_iumwc9d7f65w-26" target="RC-SYXC_iumwc9d7f65w-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="RC-SYXC_iumwc9d7f65w-26" value="관람자 리뷰" style="ellipse;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fontColor=default;" vertex="1" parent="1">
+          <mxGeometry x="750" y="650" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="RC-SYXC_iumwc9d7f65w-29" style="edgeStyle=none;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;labelBackgroundColor=default;strokeColor=default;fontFamily=Helvetica;fontSize=11;fontColor=default;endArrow=classic;" edge="1" parent="1" source="RC-SYXC_iumwc9d7f65w-27" target="RC-SYXC_iumwc9d7f65w-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="RC-SYXC_iumwc9d7f65w-27" value="평론가 리뷰" style="ellipse;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fontColor=default;" vertex="1" parent="1">
+          <mxGeometry x="750" y="750" width="100" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
