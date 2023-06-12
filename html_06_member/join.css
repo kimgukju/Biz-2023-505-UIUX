@@ -1,0 +1,36 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+#join_form {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+
+  transform: translate(-50%, -50%);
+  color: white;
+  width: 400px;
+  background-color: rgba(44, 79, 195, 0.867);
+  padding: 40px;
+  text-align: center;
+  margin: 30px auto;
+
+  border-radius: 20px;
+  box-shadow: 12px 12px 2px 1px rgba(0, 0, 255, 0.2);
+}
+
+#join_form h2 {
+  color: white;
+  font-weight: 500;
+  margin: 30px;
+}
+
+#join_form div {
+  border: 1px solid blue;
+  border-radius: 25px;
+  background-color: skyblue;
+  margin: 5px;
+  padding: 10px;
+}
