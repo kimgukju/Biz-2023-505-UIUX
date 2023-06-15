@@ -48,7 +48,7 @@ document.addEventListener("DOMContentLoaded", () => {
       join_inputs[INPUT_INDEX.RE_PASSWORD].focus();
       return false;
     }
-    if (re_password !== re_password) {
+    if (input_password !== re_password) {
       alert("비밀번호와 비밀번호 확인 값이 일치하지 않습니다");
       join_inputs[INPUT_INDEX.PASSWORD].value = "";
       join_inputs[INPUT_INDEX.RE_PASSWORD].value = "";
