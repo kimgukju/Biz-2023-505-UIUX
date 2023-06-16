@@ -52,13 +52,16 @@ document.addEventListener("DOMContentLoaded", () => {
     // const select = document.getElementById("area").value;
     if (!document.getElementById("area").value) {
       alert("지역을 선택해주세요");
+      area.focus();
       return false;
     }
-
-    // if(!document) {
-    //   alert("성별을 선택해주세요")
-    //   return false;
-    // }
+    const radio_check = document.querySelector(
+      "input[type=radio][name=gender]:checked"
+    );
+    if (!radio_check) {
+      alert("성별을 선택해주세요");
+      return false;
+    }
   };
   document.querySelector("#signUp").addEventListener("click", join);
 });
