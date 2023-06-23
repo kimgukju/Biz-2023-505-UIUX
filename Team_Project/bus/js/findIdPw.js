@@ -2,8 +2,10 @@ const INPUT_INDEX = {
   NAME: 0,
   //   AREA: 1,
   //   GENDER: 2,
-  MAIL: 1,
-  PW_NAME: 2,
+  PHONE: 1,
+  MAIL: 2,
+  PW_NAME: 3,
+  PW_PHONE: 4,
 };
 
 document.addEventListener("DOMContentLoaded", () => {
@@ -12,6 +14,11 @@ document.addEventListener("DOMContentLoaded", () => {
     if (!find_inputs[INPUT_INDEX.NAME].value) {
       alert("이름은 필수 항목입니다");
       find_inputs[INPUT_INDEX.NAME].focus();
+      return false;
+    }
+    if (!find_inputs[INPUT_INDEX.PHONE].value) {
+      alert("휴대폰 번호는 필수 항목입니다");
+      find_inputs[INPUT_INDEX.PHONE].focus();
       return false;
     }
     if (!document.getElementById("area").value) {
@@ -24,6 +31,7 @@ document.addEventListener("DOMContentLoaded", () => {
       gender.focus;
       return false;
     }
+    alert("찾으시는 ID는 XXX@XXXX.XXX 입니다");
   };
   const find2 = () => {
     const find_inputs = document.querySelectorAll(".wrapper input");
@@ -37,6 +45,12 @@ document.addEventListener("DOMContentLoaded", () => {
       find_inputs[INPUT_INDEX.PW_NAME].focus();
       return false;
     }
+    if (!find_inputs[INPUT_INDEX.PW_PHONE].value) {
+      alert("휴대폰 번호는 필수 항목입니다");
+      find_inputs[INPUT_INDEX.PW_PHONE].focus();
+      return false;
+    }
+    alert("찾으시는 비밀번호는 ~~ 입니다");
   };
   document.querySelector("#find_button1").addEventListener("click", find1);
   document.querySelector("#find_button2").addEventListener("click", find2);

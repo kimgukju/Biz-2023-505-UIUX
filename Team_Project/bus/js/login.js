@@ -13,6 +13,9 @@ document.addEventListener("DOMContentLoaded", () => {
       user_password.focus();
       return false;
     }
+
+    // 조건 다 충족시
+    alert("로그인 완료");
   };
 
   document.querySelector("#login_button").addEventListener("click", login);
