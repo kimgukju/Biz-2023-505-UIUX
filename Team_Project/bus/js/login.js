@@ -14,8 +14,10 @@ document.addEventListener("DOMContentLoaded", () => {
       return false;
     }
 
-    // 조건 다 충족시
+    // 조건 다 충족시 + index(메인화면) 이동
     alert("로그인 완료");
+    window.location.href = "index.html";
+    // window.open("index.html"); 새창에서 열기
   };
 
   document.querySelector("#login_button").addEventListener("click", login);

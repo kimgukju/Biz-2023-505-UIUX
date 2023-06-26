@@ -86,8 +86,9 @@ document.addEventListener("DOMContentLoaded", () => {
       return false;
     }
 
-    // 조건 다 충족시
+    // 조건 다 충족시 + login 창이동
     alert("회원가입완료!");
+    window.location.href = "login.html";
   };
   document.querySelector("#signUp").addEventListener("click", join);
 });

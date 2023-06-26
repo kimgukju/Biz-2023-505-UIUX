@@ -11,13 +11,13 @@ html {
 
 body {
   height: 90%;
-  width: 100%;
+  width: 70%;
   background-color: rgb(208, 233, 248);
-  /* background-image: url("../etc/background.png"); */
 }
 
 div#all {
   display: flex;
+  flex-direction: column;
 }
 
 .container {
@@ -36,20 +36,22 @@ div#all {
 }
 
 .circle {
-  /*[4]*/
   width: 40px;
   height: 40px;
   border-radius: 50%;
   background-color: rgba(0, 0, 0, 0.3);
-  position: relative; /*after사용을 위해 relative 설정*/
+  /* after사용을 위해 relative 설정 */
+  position: relative;
 }
 
 .circle::after {
-  border-right: 4px solid rgba(255, 255, 255, 0.6); /*한부분만 solid 적용*/
+  /* 한부분만 solid 적용 */
+  border-right: 4px solid rgba(255, 255, 255, 0.6);
   content: "";
   width: 30px;
   height: 30px;
-  border-radius: 50%; /* 초승달 모양 만들기 */
+  /* 초승달 모양 만들기 */
+  border-radius: 50%;
   position: absolute;
   top: 5px;
 }
@@ -77,7 +79,7 @@ a {
 
 div#full {
   background-color: burlywood;
-  margin: 70px 50px -70px 200px;
+  margin: -50px 10px -70px 300px;
   height: 600px;
   width: 1300px;
   border-radius: 20px;
@@ -150,6 +152,7 @@ div.select:hover {
 
 article a {
   display: inline;
+  padding: 0;
   font-size: 30px;
   font-family: "Dongle", sans-serif;
 }
@@ -172,22 +175,33 @@ div#light {
 }
 
 div#bottom {
+  width: 100%;
   display: flex;
-  justify-content: space-around;
+  /* justify-content: space-around; */
+  margin-left: 500px;
 }
 
 div#front {
   background-color: darkslategray;
-  width: 180px;
-  height: 180px;
-  border-radius: 90px;
+  width: 200px;
+  height: 200px;
+  border-radius: 100px;
   box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.7);
+  text-align: center;
+  display: flex;
 }
 
 div#back {
   background-color: darkslategray;
-  width: 180px;
-  height: 180px;
-  border-radius: 90px;
+  width: 200px;
+  height: 200px;
+  border-radius: 100px;
   box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.7);
+  text-align: center;
+  margin-left: 600px;
+}
+div#front div {
+  border-bottom: 7px solid black;
+  width: 180px;
+  height: 90px;
 }
